@@ -1,14 +1,14 @@
-###### Docker
+# Docker
 
-### Docker Info
+## Docker Info
 - Docker Doc : https://docs.docker.com/get-started/
 - Docker Cycle
   - ![Docker Cycle](./Resources/Docker%20Cycle.png)
 
 
-### ETC Info
-## RPM (Redhat Package Manager) : Exist The package defendency problem 
-## YUM (Yellodog Updater Modified) : Resolve The package defendency problem    
+## ETC Info
+### RPM (Redhat Package Manager) : Exist The package defendency problem 
+### YUM (Yellodog Updater Modified) : Resolve The package defendency problem    
 - yum install [패키지명] : 패키지 설치
 - yum remove [패키지명] : 패키지 삭제
 - yum update [패키지명] : 패키지 업데이트
@@ -18,7 +18,7 @@
 - yum list installed : 설치된 패키지 목록 보기
 - yum history list : 패키지 설치, 변경, 삭제로 변경된 정보 보기
 - yum repolist : 저장소 확인하기
-## yum-utils : yum package manager utilities
+### yum-utils : yum package manager utilities
 - package-cleanup
 - repo-rss
 - repoquery
@@ -27,7 +27,7 @@
 - yum-config-manager
 - yumdownloader ... 
 
-### Docker Install
+## Docker Install
 1. Setup Repository
     - sudo yum install -y yum-utils
     - sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
@@ -45,7 +45,7 @@
 5. Run Docker
     - sudo docker run 도커이름
 
-### Docker 선택사항
+## Docker 선택사항
 1. sudo systemctl enable docker.service
 2. sudo systemctl enable containerd.service
 3. Docker User Group 설정
@@ -53,13 +53,13 @@
     - sudo usermod -ag docker $USER
     - 
 
-### Docker Image Download
+## Docker Image Download
 1. docker pull 이미지이름
 2. docker images
    
 
 
-### Dockerfile
+## Dockerfile
 1. For Container Image Build
 2. package.json 과 같은 폴더에 위치
 3. Dockerfile
@@ -69,4 +69,4 @@
 ```
 
 
-### Linux Namespace & CGroups
+## Linux Namespace & CGroups
