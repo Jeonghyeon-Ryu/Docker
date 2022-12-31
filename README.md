@@ -1,4 +1,4 @@
-# <img height="32" width="32" src="https://cdn.simpleicons.org/Docker/66B2FF" /> Docker
+# <img height="32" width="32" src="https://cdn.simpleicons.org/Docker/2496ED" /> Docker
 
 ## Docker Info
 - Docker Doc : https://docs.docker.com/get-started/
