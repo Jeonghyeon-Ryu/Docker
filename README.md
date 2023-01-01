@@ -56,8 +56,25 @@
 ## Docker Image Download
 1. docker pull 이미지이름
 2. docker images
-   
 
+## Docker Image Info
+1. 이미지 상세 : docker inspect 이미지이름
+2. 저장소 위치 : docker info
+3. 레이어 위치 : docker info 에서 Storage 확인. ( /var/lib/docker/overlay2 )
+4. 디렉토리 사이즈 확인 : du -sh 디렉토리이름
+5. 히스토리 : docker history 이미지이름
+   
+## Show Docker Containers
+- Running : docker ps
+- All : docker ps -a
+
+## Docker 명령어
+- Run : docker run -d -p 외부:내부 --name 컨테이너명 이미지명
+- Shell 실행 : docker exec -it 컨테이너이름 /bin/bash
+- Container Log : docker logs 컨테이너이름
+- File Copy : docker cp 컨테이너이름:경로 로컬경로
+  - 컨테이너간 이동도 가능
+  
 
 ## Dockerfile
 1. For Container Image Build
